@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545825D11C3CB5F6007B1550 /* viewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545825D01C3CB5F6007B1550 /* viewController.m */; };
+		54BDA30A1C3F9D600042879E /* LYKDesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BDA3031C3F9D600042879E /* LYKDesCell.m */; };
+		54BDA30B1C3F9D600042879E /* LYKTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BDA3051C3F9D600042879E /* LYKTopCell.m */; };
+		54BDA30C1C3F9D600042879E /* LYKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BDA3071C3F9D600042879E /* LYKViewController.m */; };
+		54BDA30D1C3F9D600042879E /* LYKViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BDA3091C3F9D600042879E /* LYKViewExt.m */; };
+		54CE33251C3A468F002BC5E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CE33241C3A468F002BC5E3 /* main.m */; };
+		54CE33281C3A468F002BC5E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CE33271C3A468F002BC5E3 /* AppDelegate.m */; };
+		54CE33301C3A468F002BC5E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CE332F1C3A468F002BC5E3 /* Assets.xcassets */; };
+		54CE33331C3A468F002BC5E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CE33311C3A468F002BC5E3 /* LaunchScreen.storyboard */; };
+		54CE333E1C3A468F002BC5E3 /* cehuaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CE333D1C3A468F002BC5E3 /* cehuaTests.m */; };
+		54CE33491C3A468F002BC5E3 /* cehuaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CE33481C3A468F002BC5E3 /* cehuaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54CE333A1C3A468F002BC5E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54CE33181C3A468F002BC5E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54CE331F1C3A468F002BC5E3;
+			remoteInfo = cehua;
+		};
+		54CE33451C3A468F002BC5E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54CE33181C3A468F002BC5E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54CE331F1C3A468F002BC5E3;
+			remoteInfo = cehua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		545825CF1C3CB5F6007B1550 /* viewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewController.h; sourceTree = "<group>"; };
+		545825D01C3CB5F6007B1550 /* viewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewController.m; sourceTree = "<group>"; };
+		54BDA3021C3F9D600042879E /* LYKDesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYKDesCell.h; sourceTree = "<group>"; };
+		54BDA3031C3F9D600042879E /* LYKDesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYKDesCell.m; sourceTree = "<group>"; };
+		54BDA3041C3F9D600042879E /* LYKTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYKTopCell.h; sourceTree = "<group>"; };
+		54BDA3051C3F9D600042879E /* LYKTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYKTopCell.m; sourceTree = "<group>"; };
+		54BDA3061C3F9D600042879E /* LYKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYKViewController.h; sourceTree = "<group>"; };
+		54BDA3071C3F9D600042879E /* LYKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYKViewController.m; sourceTree = "<group>"; };
+		54BDA3081C3F9D600042879E /* LYKViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYKViewExt.h; sourceTree = "<group>"; };
+		54BDA3091C3F9D600042879E /* LYKViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYKViewExt.m; sourceTree = "<group>"; };
+		54CE33201C3A468F002BC5E3 /* cehua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cehua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CE33241C3A468F002BC5E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54CE33261C3A468F002BC5E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54CE33271C3A468F002BC5E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54CE332F1C3A468F002BC5E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54CE33321C3A468F002BC5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54CE33341C3A468F002BC5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CE33391C3A468F002BC5E3 /* cehuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cehuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CE333D1C3A468F002BC5E3 /* cehuaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cehuaTests.m; sourceTree = "<group>"; };
+		54CE333F1C3A468F002BC5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CE33441C3A468F002BC5E3 /* cehuaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cehuaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CE33481C3A468F002BC5E3 /* cehuaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cehuaUITests.m; sourceTree = "<group>"; };
+		54CE334A1C3A468F002BC5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54CE331D1C3A468F002BC5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CE33361C3A468F002BC5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CE33411C3A468F002BC5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54BDA3011C3F9D600042879E /* LYKViewController */ = {
+			isa = PBXGroup;
+			children = (
+				54BDA3021C3F9D600042879E /* LYKDesCell.h */,
+				54BDA3031C3F9D600042879E /* LYKDesCell.m */,
+				54BDA3041C3F9D600042879E /* LYKTopCell.h */,
+				54BDA3051C3F9D600042879E /* LYKTopCell.m */,
+				54BDA3061C3F9D600042879E /* LYKViewController.h */,
+				54BDA3071C3F9D600042879E /* LYKViewController.m */,
+				54BDA3081C3F9D600042879E /* LYKViewExt.h */,
+				54BDA3091C3F9D600042879E /* LYKViewExt.m */,
+			);
+			path = LYKViewController;
+			sourceTree = "<group>";
+		};
+		54CE33171C3A468F002BC5E3 = {
+			isa = PBXGroup;
+			children = (
+				54CE33221C3A468F002BC5E3 /* cehua */,
+				54CE333C1C3A468F002BC5E3 /* cehuaTests */,
+				54CE33471C3A468F002BC5E3 /* cehuaUITests */,
+				54CE33211C3A468F002BC5E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54CE33211C3A468F002BC5E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54CE33201C3A468F002BC5E3 /* cehua.app */,
+				54CE33391C3A468F002BC5E3 /* cehuaTests.xctest */,
+				54CE33441C3A468F002BC5E3 /* cehuaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54CE33221C3A468F002BC5E3 /* cehua */ = {
+			isa = PBXGroup;
+			children = (
+				54BDA3011C3F9D600042879E /* LYKViewController */,
+				54CE33261C3A468F002BC5E3 /* AppDelegate.h */,
+				54CE33271C3A468F002BC5E3 /* AppDelegate.m */,
+				545825CF1C3CB5F6007B1550 /* viewController.h */,
+				545825D01C3CB5F6007B1550 /* viewController.m */,
+				54CE332F1C3A468F002BC5E3 /* Assets.xcassets */,
+				54CE33311C3A468F002BC5E3 /* LaunchScreen.storyboard */,
+				54CE33341C3A468F002BC5E3 /* Info.plist */,
+				54CE33231C3A468F002BC5E3 /* Supporting Files */,
+			);
+			path = cehua;
+			sourceTree = "<group>";
+		};
+		54CE33231C3A468F002BC5E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54CE33241C3A468F002BC5E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54CE333C1C3A468F002BC5E3 /* cehuaTests */ = {
+			isa = PBXGroup;
+			children = (
+				54CE333D1C3A468F002BC5E3 /* cehuaTests.m */,
+				54CE333F1C3A468F002BC5E3 /* Info.plist */,
+			);
+			path = cehuaTests;
+			sourceTree = "<group>";
+		};
+		54CE33471C3A468F002BC5E3 /* cehuaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54CE33481C3A468F002BC5E3 /* cehuaUITests.m */,
+				54CE334A1C3A468F002BC5E3 /* Info.plist */,
+			);
+			path = cehuaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54CE331F1C3A468F002BC5E3 /* cehua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54CE334D1C3A468F002BC5E3 /* Build configuration list for PBXNativeTarget "cehua" */;
+			buildPhases = (
+				54CE331C1C3A468F002BC5E3 /* Sources */,
+				54CE331D1C3A468F002BC5E3 /* Frameworks */,
+				54CE331E1C3A468F002BC5E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cehua;
+			productName = cehua;
+			productReference = 54CE33201C3A468F002BC5E3 /* cehua.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54CE33381C3A468F002BC5E3 /* cehuaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54CE33501C3A468F002BC5E3 /* Build configuration list for PBXNativeTarget "cehuaTests" */;
+			buildPhases = (
+				54CE33351C3A468F002BC5E3 /* Sources */,
+				54CE33361C3A468F002BC5E3 /* Frameworks */,
+				54CE33371C3A468F002BC5E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54CE333B1C3A468F002BC5E3 /* PBXTargetDependency */,
+			);
+			name = cehuaTests;
+			productName = cehuaTests;
+			productReference = 54CE33391C3A468F002BC5E3 /* cehuaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54CE33431C3A468F002BC5E3 /* cehuaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54CE33531C3A468F002BC5E3 /* Build configuration list for PBXNativeTarget "cehuaUITests" */;
+			buildPhases = (
+				54CE33401C3A468F002BC5E3 /* Sources */,
+				54CE33411C3A468F002BC5E3 /* Frameworks */,
+				54CE33421C3A468F002BC5E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54CE33461C3A468F002BC5E3 /* PBXTargetDependency */,
+			);
+			name = cehuaUITests;
+			productName = cehuaUITests;
+			productReference = 54CE33441C3A468F002BC5E3 /* cehuaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54CE33181C3A468F002BC5E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ws;
+				TargetAttributes = {
+					54CE331F1C3A468F002BC5E3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					54CE33381C3A468F002BC5E3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 54CE331F1C3A468F002BC5E3;
+					};
+					54CE33431C3A468F002BC5E3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 54CE331F1C3A468F002BC5E3;
+					};
+				};
+			};
+			buildConfigurationList = 54CE331B1C3A468F002BC5E3 /* Build configuration list for PBXProject "cehua" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54CE33171C3A468F002BC5E3;
+			productRefGroup = 54CE33211C3A468F002BC5E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54CE331F1C3A468F002BC5E3 /* cehua */,
+				54CE33381C3A468F002BC5E3 /* cehuaTests */,
+				54CE33431C3A468F002BC5E3 /* cehuaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54CE331E1C3A468F002BC5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CE33331C3A468F002BC5E3 /* LaunchScreen.storyboard in Resources */,
+				54CE33301C3A468F002BC5E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CE33371C3A468F002BC5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CE33421C3A468F002BC5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54CE331C1C3A468F002BC5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BDA30D1C3F9D600042879E /* LYKViewExt.m in Sources */,
+				54CE33281C3A468F002BC5E3 /* AppDelegate.m in Sources */,
+				545825D11C3CB5F6007B1550 /* viewController.m in Sources */,
+				54CE33251C3A468F002BC5E3 /* main.m in Sources */,
+				54BDA30C1C3F9D600042879E /* LYKViewController.m in Sources */,
+				54BDA30A1C3F9D600042879E /* LYKDesCell.m in Sources */,
+				54BDA30B1C3F9D600042879E /* LYKTopCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CE33351C3A468F002BC5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CE333E1C3A468F002BC5E3 /* cehuaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CE33401C3A468F002BC5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CE33491C3A468F002BC5E3 /* cehuaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54CE333B1C3A468F002BC5E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54CE331F1C3A468F002BC5E3 /* cehua */;
+			targetProxy = 54CE333A1C3A468F002BC5E3 /* PBXContainerItemProxy */;
+		};
+		54CE33461C3A468F002BC5E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54CE331F1C3A468F002BC5E3 /* cehua */;
+			targetProxy = 54CE33451C3A468F002BC5E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54CE33311C3A468F002BC5E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54CE33321C3A468F002BC5E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54CE334B1C3A468F002BC5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54CE334C1C3A468F002BC5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54CE334E1C3A468F002BC5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cehua/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-222.cehua";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		54CE334F1C3A468F002BC5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cehua/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-222.cehua";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		54CE33511C3A468F002BC5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cehuaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-222.cehuaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cehua.app/cehua";
+			};
+			name = Debug;
+		};
+		54CE33521C3A468F002BC5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cehuaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-222.cehuaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cehua.app/cehua";
+			};
+			name = Release;
+		};
+		54CE33541C3A468F002BC5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cehuaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-222.cehuaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cehua;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		54CE33551C3A468F002BC5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cehuaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-222.cehuaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cehua;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54CE331B1C3A468F002BC5E3 /* Build configuration list for PBXProject "cehua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CE334B1C3A468F002BC5E3 /* Debug */,
+				54CE334C1C3A468F002BC5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54CE334D1C3A468F002BC5E3 /* Build configuration list for PBXNativeTarget "cehua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CE334E1C3A468F002BC5E3 /* Debug */,
+				54CE334F1C3A468F002BC5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54CE33501C3A468F002BC5E3 /* Build configuration list for PBXNativeTarget "cehuaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CE33511C3A468F002BC5E3 /* Debug */,
+				54CE33521C3A468F002BC5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54CE33531C3A468F002BC5E3 /* Build configuration list for PBXNativeTarget "cehuaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CE33541C3A468F002BC5E3 /* Debug */,
+				54CE33551C3A468F002BC5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54CE33181C3A468F002BC5E3 /* Project object */;
+}
